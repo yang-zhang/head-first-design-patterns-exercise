@@ -3,6 +3,10 @@ public class WeatherStation {
 		WeatherData weatherData = new WeatherData();
 		CurrentConditionsDisplay currentDisplay = 
 		    new CurrentConditionsDisplay(weatherData);
+		ForecastDisplay forecastDisplay = 
+		    new ForecastDisplay(weatherData);
+		StatisticsDisplay statisticsDisplay = 
+		    new StatisticsDisplay(weatherData);
 		HeatIndexDisplay heatIndexDisplay = 
 		    new HeatIndexDisplay(weatherData);
 
